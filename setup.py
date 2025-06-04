@@ -10,7 +10,8 @@ setup(
     description="Occhi package.",
     url="https://github.com/facebookresearch/perception_models",
     packages=find_packages(),
-    package_data = {"core.vision_encoder": "bpe_simple_vocab_16e6.txt.gz"}
+    package_data={"core.vision_encoder": "bpe_simple_vocab_16e6.txt.gz"},
+    include_package_data=True,
     install_requires=required,
     classifiers=[
         "Programming Language :: Python :: 3",
