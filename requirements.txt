@@ -28,5 +28,4 @@ sentencepiece
 tokenizers
 webdataset
 fsspec
-datatrove
 ftfy
